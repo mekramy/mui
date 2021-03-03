@@ -1,0 +1,24 @@
+// Base config
+$--mui-theme: "light"; // Theme mode (dark or light)
+
+// Holders
+$mui-vars: () !default;
+$mui-gaps: () !default;
+$mui-units: () !default;
+$mui-palette: () !default;
+$mui-font-sizes: () !default;
+$mui-breakpoints: (
+    "tablet": 769px,
+    "desktop": 1024px,
+    "widescreen": 1216px,
+    "fullhd": 1408px
+) !default;
+$mui-font-weights: (
+    "lighter": 100,
+    "light": 300,
+    "normal": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700,
+    "bolder": 900
+) !default;
