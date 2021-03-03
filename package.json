@@ -1,0 +1,14 @@
+{
+    "name": "mui",
+    "version": "1.0.0",
+    "description": "Modern modular CSS framework",
+    "license": "ISC",
+    "authors": [
+        {
+            "email": "m.ajamekramy@gmail.com",
+            "homepage": "http://ekramy.ir",
+            "name": "M Ekramy",
+            "role": "Developer"
+        }
+    ]
+}
