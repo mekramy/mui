@@ -14,7 +14,7 @@
 
     &.has-grid,
     &.has-grid.is-paddingless {
-        padding: get-gap("container") / 2 !important;
+        padding: get-gap("container") / 2;
     }
 
     &:not(.is-fluid) {
@@ -26,9 +26,11 @@
         }
     }
 
-    @each $label, $gap in iterate-gaps() {
-        &.has-#{$label}-padding {
-            padding: $gap;
+    &:not(.has-grid) {
+        @each $label, $gap in iterate-gaps() {
+            &.has-#{$label}-padding {
+                padding: $gap;
+            }
         }
     }
 }
